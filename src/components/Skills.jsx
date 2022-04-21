@@ -8,8 +8,11 @@ import Node from '../assets/node.png';
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full h-screen bg-[#170841] text-gray-300'>
-      <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+    <div
+      name='skills'
+      className='pt-11 md:pt-0 w-full md:h-screen bg-[#170841] text-gray-300'
+    >
+      <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full w-full'>
         <div>
           <p className='text-4xl font-bold inline border-b-4 border-purple-500'>
             Skills

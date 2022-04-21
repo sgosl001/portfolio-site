@@ -10,13 +10,9 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#170841] text-gray-300'>
+    <div className='sticky top-0 w-full h-[80px] flex justify-between items-center px-4 bg-[#170841] text-gray-300'>
       <div>
-        <img
-          src={Logo}
-          alt='Logo Image'
-          style={{ width: '50px', scale: '1.6' }}
-        />
+        <img src={Logo} alt='Logo' style={{ width: '50px', scale: '1.6' }} />
       </div>
 
       {/* menu */}
@@ -124,7 +120,8 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='../assets/shafiq-resume.pdf'
+              download
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
